@@ -1,0 +1,12 @@
+<BusinessObjectGenerator ContextName="ServiceTimeBusinessObjectContext" ClientType="None" RuntimeLicenseKey="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxMaWNlbnNlPg0KICA8SWQ+YTg1N2QyZGEtODMyNS00MzFkLWExOWUtZmUzOWU4MDFlMDY3PC9JZD4NCiAgPFR5cGU+VHJpYWw8L1R5cGU+DQogIDxFeHBpcmF0aW9uPk1vbiwgMDIgTWF5IDIwMTYgMjE6MTc6MjEgR01UPC9FeHBpcmF0aW9uPg0KICA8UHJvZHVjdEZlYXR1cmVzPg0KICAgIDxGZWF0dXJlIG5hbWU9Ik1vZGVsR2VuZXJhdG9yIj50cnVlPC9GZWF0dXJlPg0KICAgIDxGZWF0dXJlIG5hbWU9Ik9ubGluZSI+VHJ1ZTwvRmVhdHVyZT4NCiAgICA8RmVhdHVyZSBuYW1lPSJPZmZsaW5lIj5UcnVlPC9GZWF0dXJlPg0KICAgIDxGZWF0dXJlIG5hbWU9IkZ1bmN0aW9ucyI+VHJ1ZTwvRmVhdHVyZT4NCiAgICA8RmVhdHVyZSBuYW1lPSJCdXNpbmVzc09iamVjdHMiPkVub3NpeCo8L0ZlYXR1cmU+DQogIDwvUHJvZHVjdEZlYXR1cmVzPg0KICA8Q3VzdG9tZXI+DQogICAgPE5hbWU+UGl4ZWwgYW5kIExpbmU8L05hbWU+DQogICAgPEVtYWlsPnN0dWFydEBwaXhlbGFuZGxpbmUuY29tPC9FbWFpbD4NCiAgPC9DdXN0b21lcj4NCiAgPExpY2Vuc2VBdHRyaWJ1dGVzPg0KICAgIDxBdHRyaWJ1dGUgbmFtZT0iQXBwTmFtZSI+Rml2ZXMgUHJvamVjdDwvQXR0cmlidXRlPg0KICAgIDxBdHRyaWJ1dGUgbmFtZT0iQ3JlYXRlZE9uIj4xMS8yLzIwMTUgOToxNzoyMSBQTTwvQXR0cmlidXRlPg0KICA8L0xpY2Vuc2VBdHRyaWJ1dGVzPg0KICA8U2lnbmF0dXJlPk1FVUNJRTVRVHdYOFdzY1pyb0lKSHNsT2dBelpaQWtzSHNRcEd0d3l3K0ZFTTdoK0FpRUEzV0djVjRqRFRycGlxc1JRVi9hSWpzdUUvZXFVeERFVmNvVVAremVZMzEwPTwvU2lnbmF0dXJlPg0KPC9MaWNlbnNlPg==">
+  <BusinessObjects>
+    <BusinessObject Name="EnosixServiceOrder" IsOfflineEnabled="true" IsOnlineEnabled="true" IsSearchEnabled="true" EnableOnline="true" EnableOffline="false" EnableSearch="true" />
+    <BusinessObject Name="EnosixTimesheet" IsOfflineEnabled="true" IsOnlineEnabled="true" IsSearchEnabled="true" EnableOnline="true" EnableOffline="false" EnableSearch="true" />
+    <BusinessObject Name="EnosixServiceNotification" IsOfflineEnabled="true" IsOnlineEnabled="true" IsSearchEnabled="true" EnableOnline="true" EnableOffline="false" EnableSearch="true" />
+    <BusinessObject Name="EnosixServiceReport" IsOfflineEnabled="true" IsOnlineEnabled="true" IsSearchEnabled="true" EnableOnline="true" EnableOffline="false" EnableSearch="true" />
+  </BusinessObjects>
+  <Functions>
+    <Function Name="Z_ENSX_CS_GET_SAFETY_CHECKLIST" Enabled="true" />
+    <Function Name="/ENSX/CS_GET_REPORT_CODES" Enabled="true" />
+  </Functions>
+</BusinessObjectGenerator>
